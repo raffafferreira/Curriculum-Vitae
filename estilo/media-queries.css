@@ -12,6 +12,20 @@
     #nome, .contato, .dados, .i-linguas, .u-linguas{
         font-weight: 600;
     }
+    .avatar2{
+        box-shadow: 0px 0px 10px rgb(95, 158, 139);
+    }
+    #main1{
+        display: none;
+    }
+    #main2{
+        display: block;
+    }
+    .rightform{
+        width: 100%;
+
+    }
+    
 }
 
 
