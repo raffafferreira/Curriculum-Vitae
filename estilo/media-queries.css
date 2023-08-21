@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 320px) and (max-width: 750px) {
     .titulo{
-        font-size: 0.9em;
+        font-size: 0.89em;
         font-weight: 800;
         margin-top: 15px;
     }
@@ -12,6 +12,7 @@
     }
     #nome, .contato, .dados, .i-linguas, .u-linguas{
         font-weight: 600;
+        font-size: 0.8em;
     }
     .avatar2{
         box-shadow: 0px 0px 10px rgb(95, 158, 139);
