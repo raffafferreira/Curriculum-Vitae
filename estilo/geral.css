@@ -111,6 +111,12 @@ aside{
     border-radius: 50%;
     border: 1px solid rgb(0, 0, 0);
 }
+.avatar2{
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    display: inline-block;
+}
 #info{
     font-size: 1em;
     font-weight: bolder;
@@ -120,7 +126,7 @@ aside{
     font-weight: 800;
 }
 #nome{
-    font-size: 1.2em;
+    font-size: 0.8em;
     line-height: normal;
     margin-top: 5px;
 }
@@ -142,6 +148,7 @@ p{
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
 #ultimo-espaco{
     margin-bottom: 0px;
     padding-bottom: 10px;
@@ -149,7 +156,7 @@ p{
 
 .u-linguas{
     margin: auto;
-    width: 150px;
+    width: 180px;
     text-align: left;
     font-size: 0.8em;
     line-height: 2em;
@@ -157,9 +164,73 @@ p{
 }
 .i-linguas{
     margin: auto;
-    width: 150px;
+    width: 180px;
     text-align: left;
     font-size: 0.8em;
     line-height: 2em;
 }
 
+article{
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    padding: 20px;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "curriculo "
+    "foto/dados "
+    "contato/idiomas "
+    "apresentacao "
+    "formacao  "
+    "cursos "
+    "experiencia "
+    "habilidades ";
+    text-align: justify;
+}
+.section2-1{
+    text-align: center;
+    margin-bottom: 20px;
+    grid-area: curriculo;
+}
+.section2-1>h1{
+    font-size: 2em;
+}
+.section2-2{
+    text-align: center;
+    grid-area: foto/dados;
+}
+#entre{
+    margin-top: 20px;
+}
+.section2-3{
+    text-align: center;
+    grid-area: contato/idiomas;
+}
+.section2-4{
+    grid-area: apresentacao;
+}
+.section2-5{
+    grid-area: formacao;
+}
+.section2-6{
+    grid-area: cursos;
+}
+.section2-7{
+    grid-area: experiencia;
+}
+.section2-8{
+    grid-area: habilidades;
+}
+.section2-6>ul>li, .section2-8>ul>li{
+    margin-left: 20px;
+    list-style-type: upper-roman;
+    line-height: 1.2em;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+.section2-4, .section2-5, .section2-6, .section2-7, .section2-8{
+    margin-top: 20px;
+}

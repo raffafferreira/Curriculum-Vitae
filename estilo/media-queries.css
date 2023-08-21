@@ -1,32 +1,17 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 320px) and (max-width: 750px) {
-    /* .grid{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        grid-template-areas: 
-        "section0"
-        "section1"
-        "section4"
-        "section5"
-        "section2 "
-        "section3";
-        text-align: justify;
-    }
-    aside{
-        display: none;
-    }
-    .shadowcorpo{
-        border-radius: 85px 10px 10px 10px;
-        margin: 0px 0px 0px 0px;
-    } */
     .titulo{
-        font-size: 0.7em;
+        font-size: 0.9em;
         font-weight: 800;
+        margin-top: 15px;
     }
-    
-
+    main{
+        border-radius: 10px 10px 10px 10px;
+    }
+    #nome, .contato, .dados, .i-linguas, .u-linguas{
+        font-weight: 600;
+    }
 }
 
 
