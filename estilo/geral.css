@@ -142,6 +142,7 @@ p.dados, p.secoes, .contato{
 }
 p{
     line-height: 1.5em;
+    size: 30px;
 }
 .linguas{
     font-size: 0.8em;
